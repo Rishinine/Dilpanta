@@ -1,76 +1,91 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>DILPANTA</title>
+  <title>DILPANTA - The Not-So-Bright Buddy</title>
+  <!-- Link to your custom CSS file for styling -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- Bootstrap CSS (optional) -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 
 <body>
-  <h1 class="display-1" style="text-align: center;">Little Dilpanta: The Not-So-Bright Buddy</h1>
-  <div class="text-center">
-    <a href="dilpanta.jpg"><img src="dilpanta.jpg" class="rounded" alt="dilpantaimage" style="width: 300px;height: auto;"></a>
-    <p class="lead">
-      Dilpanta
-    </p>
-  </div>
-  <div class="alert alert-danger" role="alert">
-    Dilpanta is an animal who somehow managed to escape from Tihar Jail. He is one of the dangerous things for the
-    Future of India.
-    He liked to destroy childrens life with his incomplete knowledge. He is also an expert in pirating. He falsely
-    claims that someone else's content is his own.
-    Dilpanta is acting like an eclipse for fututre of Indian children.
-  </div>
-  <div class="accordion" id="accordionExample">
-    <div class="accordion-item">
-      <h2 class="accordion-header">
-        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-          aria-expanded="true" aria-controls="collapseOne">
-          Poem by one of his students who somehow managed to survive his words
-        </button>
-      </h2>
-      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-        <div class="accordion-body">
-          <pre>
-            In a tale quite bizarre, Dilpanta did roam,
-            Escaped from Tihar, where shadows find home.
-            He wandered the land with his knowledge so frail,
-            Teaching simple reactions, yet causing great wail.
-            
-            With trousers hanging low and a smirk full of spite,
-            He puzzled the students both day and night.
-            Questions so complex, far beyond comprehension,
-            Leaving young minds in utter apprehension.
-            
-            But hate followed Dilpanta, in whispers and jeers,
-            For his teaching brought chaos and unfounded fears.
-            A creature so strange, with his tricks and his games,
-            He reveled in their torment, enjoying their shame.
-            
-            In the world of education, where clarity's dear,
-            Dilpanta's odd ways bred confusion and fear.
-            Yet within the madness, a lesson was found,
-            To persevere through challenges, on solid ground.
-            
-            So here's to Dilpanta, though strange in his way,
-            A creature of havoc, who led minds astray.
-            In those loose-fitting pants, he left a dark stain,
-            Teaching hard-won wisdom through torment and pain.
-            
-          </pre>
-        </div>
+  <header>
+    <h1 class="display-1 text-center">Little Dilpanta: The Not-So-Bright Buddy</h1>
+  </header>
+
+  <main>
+    <div class="container text-center">
+      <img src="dilpanta.jpg" class="rounded img-fluid" alt="Dilpanta Image" style="max-width: 300px;">
+      <p class="lead">Dilpanta</p>
+    </div>
+
+    <div class="container mt-5">
+      <div class="alert alert-danger" role="alert">
+        <h2>Dilpanta: A Mysterious Character</h2>
+        <p>
+          Dilpanta is an enigmatic figure who managed to escape from Tihar Jail. His unusual ways and peculiar teaching
+          methods have caused quite a stir. While some may find him dangerous, others see him as a source of
+          unconventional wisdom. Let's explore his story.
+        </p>
       </div>
     </div>
 
-  </div>
-  </div>
+    <div class="container mt-5">
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+              aria-expanded="true" aria-controls="collapseOne">
+              Poem by one of his students who somehow managed to survive his words
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <pre>
+                In a tale quite bizarre, Dilpanta did roam,
+                Escaped from Tihar, where shadows find home.
+                He wandered the land with his knowledge so frail,
+                Teaching simple reactions, yet causing great wail.
+
+                With trousers hanging low and a smirk full of spite,
+                He puzzled the students both day and night.
+                Questions so complex, far beyond comprehension,
+                Leaving young minds in utter apprehension.
+
+                But hate followed Dilpanta, in whispers and jeers,
+                For his teaching brought chaos and unfounded fears.
+                A creature so strange, with his tricks and his games,
+                He reveled in their torment, enjoying their shame.
+
+                In the world of education, where clarity's dear,
+                Dilpanta's odd ways bred confusion and fear.
+                Yet within the madness, a lesson was found,
+                To persevere through challenges, on solid ground.
+
+                So here's to Dilpanta, though strange in his way,
+                A creature of havoc, who led minds astray.
+                In those loose-fitting pants, he left a dark stain,
+                Teaching hard-won wisdom through torment and pain.
+              </pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="text-center py-3">
+    &copy; 2023 Dilpanta's Chronicles
+  </footer>
+
+  <!-- Bootstrap JS (optional) -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
-    </script>
-
+  </script>
 </body>
 
 </html>
