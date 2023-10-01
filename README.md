@@ -1,3 +1,5 @@
+Little Dilpanta: The Not-So-Bright Buddy
+
 Dilpanta: A Mysterious Character
 Dilpanta is an enigmatic figure who managed to escape from Tihar Jail. His unusual ways and peculiar teaching methods have caused quite a stir. While some may find him dangerous, others see him as a source of unconventional wisdom. Let's explore his story.
 ![dilpanta](https://github.com/Rishinine/Dilpanta/assets/107350804/0912919c-bec8-499b-8ef0-a9aa1b70781d)
