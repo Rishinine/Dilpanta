@@ -7,7 +7,6 @@ Dilpanta is an enigmatic figure who managed to escape from Tihar Jail. His unusu
 In a tale quite bizarre, Dilpanta did roam,
 Escaped from Tihar, where shadows find home.
 He wandered the land with his knowledge so frail,
-
 Teaching simple reactions, yet causing great wail.
 
 With trousers hanging low and a smirk full of spite,
